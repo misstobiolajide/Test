@@ -520,6 +520,10 @@ main {
     top: 50%;
     height: 20px;
     transform: translate(0 , -50%);
+    
+    @media (max-width: 767px) {
+	    display: none!important;
+    }
 }
 
 .slick-prev {
