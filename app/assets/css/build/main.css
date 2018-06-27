@@ -33,7 +33,7 @@ header .top-navigation {
           content: " ";
           display: inline-block;
           position: absolute;
-          background-image: url("/assets/icon/down.svg");
+          background-image: url("../../icon/down.svg");
           bottom: 12px;
           right: -5px;
           width: 26px;
@@ -92,13 +92,13 @@ header .main-navigation {
           background-repeat: no-repeat;
           top: 0; }
         header .main-navigation__utilities li a#search:before {
-          background-image: url("/assets/icon/search.svg"); }
+          background-image: url("../../icon/search.svg"); }
         header .main-navigation__utilities li a#cart:before {
-          background-image: url("/assets/icon/bag.svg"); }
+          background-image: url("../../icon/bag.svg"); }
         header .main-navigation__utilities li a#account:before {
-          background-image: url("/assets/icon/profile.svg"); }
+          background-image: url("../../icon/profile.svg"); }
         header .main-navigation__utilities li a#favourites:before {
-          background-image: url("/assets/icon/heart.svg"); }
+          background-image: url("../../icon/heart.svg"); }
     header .main-navigation__utilities .cart-content {
       width: 100vw;
       max-width: 358px;
@@ -284,7 +284,7 @@ main .hero-banner {
   main .hero-banner__container {
     background: grey;
     height: 672px;
-    background-image: url("/assets/image/Slider/Background.jpg");
+    background-image: url("../../image/Slider/Background.jpg");
     background-position: center;
     background-size: cover;
     position: relative; }
