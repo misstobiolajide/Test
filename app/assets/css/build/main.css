@@ -354,3 +354,48 @@ main .hero-banner {
     width: 16px;
     height: 16px;
     margin-top: -2px; }
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  position: absolute;
+  bottom: 20px;
+  color: #d5122f;
+  border: 0;
+  background: none;
+  z-index: 1;
+  top: 50%;
+  height: 20px;
+  transform: translate(0, -50%); }
+
+.slick-prev {
+  left: 80px; }
+
+.slick-prev:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0;
+  transform: rotate(180deg);
+  background-image: url("../../icon/forward.svg"); }
+
+.slick-next {
+  right: 100px;
+  text-align: right; }
+
+.slick-next:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background-repeat: no-repeat;
+  top: 0;
+  background-image: url("../../icon/forward.svg"); }
+
+.slick-prev:hover:after,
+.slick-next:hover:after {
+  color: #7e7e7e; }
